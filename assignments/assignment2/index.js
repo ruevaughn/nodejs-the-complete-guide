@@ -3,11 +3,11 @@ const PORT = 3002;
 const app = express();
 
 app.use("/users", (req, res, next) => {
-  res.write("<h1>Users Page</h1>");
+  res.send("<h1>Users Page</h1>");
 });
 
 app.use("/", (req, res, next) => {
-  res.write("<h1>Homepage</h1>");
+  res.send("<h1>Homepage</h1>");
 });
 
 app.listen(PORT);
