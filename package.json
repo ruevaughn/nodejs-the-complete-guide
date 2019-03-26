@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ruevaughn/nodejs-the-complete-guide#readme",
   "devDependencies": {
     "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
