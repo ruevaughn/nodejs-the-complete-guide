@@ -5,6 +5,7 @@ const PORT = 3001;
 // Middleware, always receives (req, res, next). res is sent back with new tricks learned. next is called to proceed
 app.use("/", (req, res, next) => {
   console.log(`${Date.now("%d")} - ${req.url}`);
+  next();
 });
 
 app.use("/add-product", (req, res, next) => {
@@ -12,7 +13,7 @@ app.use("/add-product", (req, res, next) => {
 });
 
 app.use("/", (req, res, next) => {
-  res.send("<h1>Hello from Express Middleware!</h1>");
+  res.send("<h1>Hello from Express!</h1>");
 });
 
 app.listen(PORT);
