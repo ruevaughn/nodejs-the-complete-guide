@@ -2,6 +2,7 @@ const path = require("path");
 
 const express = require("express");
 const bodyParser = require("body-parser");
+const expressHbs = require("express-handlebars");
 
 // Routes
 const adminData = require("./routes/admin");
@@ -11,7 +12,9 @@ const shopRoutes = require("./routes/shop");
 const PORT = 3001;
 const app = express();
 
-app.set('view engine', 'pug');
+app.engine('hbs', expressHbs());
+
+app.set('view engine', 'hbs');
 app.set('views', 'views');
 
 app.use(bodyParser.urlencoded({ extended: false }));
