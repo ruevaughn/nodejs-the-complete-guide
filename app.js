@@ -12,7 +12,7 @@ const shopRoutes = require("./routes/shop");
 const PORT = 3001;
 const app = express();
 
-app.engine('hbs', expressHbs());
+app.engine('hbs', expressHbs({layoutsDir: 'views/layouts/', defaultLayout: 'main-layout.hbs'}));
 
 app.set('view engine', 'hbs');
 app.set('views', 'views');
