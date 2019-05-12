@@ -1,1 +1,23 @@
-[{"title":"A new good book!","imageUrl":"https://cbsnews1.cbsistatic.com/hub/i/2015/12/11/7f3c9843-adb1-4022-be13-82515641a9fc/open-book.jpg","description":"A great great book.","price":"30"},{"title":"Another best seller!","imageUrl":"https://cbsnews1.cbsistatic.com/hub/i/2015/12/11/7f3c9843-adb1-4022-be13-82515641a9fc/open-book.jpg","description":"This book is one of the best you will ever read!","price":"30.99"}]
+[
+  {
+    "title": "Purple Amethyst Healing Necklace",
+    "imageUrl": "https://www.alexandani.com/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/p/c/pc16en02s_detail_1.png",
+    "description": "This Necklace was made in Sedona, AZ and is pure amethyst. It has healing and calming properties.",
+    "price": "29.99",
+    "id": "2"
+  },
+  {
+    "title": "Irregular Quartz Necklace",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2468/5003/products/quartz-necklace-wish-giver-green-necklaces-3709008281693_2000x.jpg?v=1550183322",
+    "description": "Quartz crystal healing is a method of healing that uses any one of the many varieties of quartz crystals that are currently available, to assist in healing the body. ... Although quartz is common, many of the quartz properties are very impressive when it comes to using their healing energy.",
+    "price": "39.99",
+    "id": "3"
+  },
+  {
+    "title": "Great Crystal",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/2578/2612/products/HTB1XMAVSXXXXXb0aXXXq6xXFXXX9_1.jpg?v=1536328182",
+    "description": "The best Crystal ever",
+    "price": "19.99",
+    "id": "1"
+  }
+]
