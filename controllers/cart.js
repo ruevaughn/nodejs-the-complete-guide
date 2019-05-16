@@ -11,3 +11,8 @@ exports.getCheckout = (req, res, next) => {
     pageTitle: "Checkout"
   });
 };
+
+exports.postCart = (req, res, next) => {
+  const prodId = req.body.productId;
+  console.log(prodId);
+}
